@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
       <main className={`bg-white text-secondary h-full w-full`}>
         {children}
       </main>
-      <footer className="">
+      <footer className="bg-white">
         <Footer />
       </footer>
     </>
