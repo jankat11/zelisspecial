@@ -4,18 +4,14 @@ import IntroductionItem from "../IntroductionItem";
 
 const IntroductionList = () => {
   return (
-    <section id="home-store" className="relative pb-10">
-      <div className="grid relative md:grid-cols-2 ">
+    <section id="home-store" className="relative pb-10 mt-56 inside-container">
+      <div className="grid relative md:grid-cols-3 gap-8">
         <IntroductionItem
-          title={"our collection"}
-          introImage={"/homepage/h1.png"}
+          title={"kuru tatlı"}
+          introImage={"/homepage/intro2.jpg"}
         />
-        <IntroductionItem title={"in stock"} introImage={"/homepage/h15.png"} />
-        <IntroductionItem title={"artists"} introImage={"/homepage/h14.jpg"} />
-        <IntroductionItem
-          title={"art and craft"}
-          introImage={"/homepage/h11.png"}
-        />
+        <IntroductionItem title={"yaş tatlı & pasta"} introImage={"/homepage/intro4.jpg"} />
+        <IntroductionItem title={"börek & çörek"} introImage={"/homepage/intro5.jpg"} />
       </div>
       <p className="introTitle inside-container ">
         <span className=" ">W</span>e value our planet and are dedicated to
