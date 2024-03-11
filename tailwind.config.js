@@ -22,12 +22,7 @@ module.exports = {
         neutral: "#FEFAE0",
         aside: "#fffdf3",
     
-        letter: "#674B24",
-        accent: "#DBBF97",
-        greenish: "#626724",
-        green: "#24674B",
-        lightgreen: "#50856f",
-        red: "#672a24",
+   
         violet: "#4B2467",
         purple: "#843FB5",
         lightpurple: "#bd94da",
