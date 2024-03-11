@@ -2,7 +2,7 @@ import SocialIcons from "./SocialIcons";
 
 const Footer = () => {
   return (
-    <div className="relative ">
+    <div className="relative border border-orange-500">
       <svg
         viewBox="0 0 960 150"
         className="w-full bg-white relative -z-10 translate-y-[30%]"
