@@ -23,12 +23,6 @@ module.exports = {
         aside: "#fffdf3",
     
    
-        violet: "#4B2467",
-        purple: "#843FB5",
-        lightpurple: "#bd94da",
-        blue: "#7CA0D1",
-        aside: "#FDFCFA",
-        asideDark: "#FDFBF8",
         westar: "#E0DBD3",
         hillary: "#283618",
         napa: "#AC9C8C",
