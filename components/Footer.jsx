@@ -2,9 +2,8 @@ import SocialIcons from "./SocialIcons";
 
 const Footer = () => {
   return (
-    <div className="relative  border ">
-      <div className="bg-red-500">
-        {/* <div className="h-32 w-full bg-red-500"></div> */}
+    <div className="relative">
+      <div className="bg-white-500">
         <svg
           viewBox="0 0 960 150"
           className="w-full bg-white  relative translate-y-[30%]"
@@ -17,7 +16,7 @@ const Footer = () => {
           ></path>
         </svg>
       </div>
-      <div className="footer footer-center p-10  text-white rounded bg-secondary">
+      <div className="footer footer-center p-10 z-10 relative text-white rounded bg-secondary">
         <nav className="grid grid-flow-col gap-4">
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
