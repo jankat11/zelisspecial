@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import { FaInstagram } from "react-icons/fa";
 import { useRef, useState, useEffect } from "react";
@@ -25,8 +25,8 @@ const InstagramModal = ({ imageItem }) => {
   };
 
   useEffect(() => {
-    setElement(document.getElementById("modal"))
-  }, [])
+    setElement(document.getElementById("modal"));
+  }, []);
 
   useEffect(() => {
     if (isModalOpen) {
@@ -51,47 +51,45 @@ const InstagramModal = ({ imageItem }) => {
         />
       </div>
 
-      {element && createPortal(
-        <div
-          ref={overlayRef}
-          onClick={handleOverlayClick}
-          className={`modal-overlay ${
-            isModalOpen ? "flex" : "hidden"
-          }`}
-        >
+      {element &&
+        createPortal(
           <div
-            ref={cardRef}
-            onClick={handleCardClick}
-            className="modal-card"
+            ref={overlayRef}
+            onClick={handleOverlayClick}
+            className={`modal-overlay ${isModalOpen ? "flex" : "hidden"}`}
           >
-            <div className="card h-full lg:h-auto lg:card-side bg-white shadow-xl overflow-y-auto">
-              <InstagramTitle handleClose={handleClose} classes={"lg:hidden"} />
-              <figure>
-                <Image
-                  className=""
-                  src={imageItem.image}
-                  alt="Album"
-                  height={800}
-                  width={800}
-                />
-              </figure>
-              <div className="card-body p-0 lg:w-96">
+            <div ref={cardRef} onClick={handleCardClick} className="modal-card">
+              <div className="card h-full lg:h-auto lg:card-side bg-white shadow-xl overflow-y-auto">
                 <InstagramTitle
                   handleClose={handleClose}
-                  classes={"hidden lg:block"}
+                  classes={"lg:hidden"}
                 />
-                <div className="p-6 ">
-                  <div className="text-sm pb-6   text-gray-500">
-                    {imageItem.description}
-                    <div className="mt-4">{imageItem.hash}</div>
+                <figure>
+                  <Image
+                    className=""
+                    src={imageItem.image}
+                    alt="Album"
+                    height={800}
+                    width={800}
+                  />
+                </figure>
+                <div className="card-body p-0 lg:w-96">
+                  <InstagramTitle
+                    handleClose={handleClose}
+                    classes={"hidden lg:block"}
+                  />
+                  <div className="p-6 ">
+                    <div className="text-sm pb-6   text-gray-500">
+                      {imageItem.description}
+                      <div className="mt-4">{imageItem.hash}</div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>,
-        element
-      )}
+          </div>,
+          element
+        )}
     </>
   );
 };

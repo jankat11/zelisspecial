@@ -17,12 +17,13 @@ export default function Home() {
     <>
       <Hero />
       <IntroductionList />
-      <HomeProducts products={"newArrivals"} title={"NEW ARRIVALS"} />
-      <HomeVitra />
-      <HomeProducts products={"plates"}  title={"PLATES"} />
       <CompareImages />
-   {/*    <HomeProducts products={"bags"} title={"BAGS"} /> */}
+      <HomeVitra />
       <HomeInstagram />
     </>
   );
 }
+
+      {/* <HomeProducts products={"newArrivals"} title={"NEW ARRIVALS"} /> */}
+     {/*  <HomeProducts products={"plates"}  title={"PLATES"} /> */}
+   {/*    <HomeProducts products={"bags"} title={"BAGS"} /> */}

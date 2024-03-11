@@ -15,7 +15,7 @@ const HomeInstagram = () => {
     <section className="sm:py-12 py-10">
       <div className="pb-2 sm:pb-2 max-w-5xl xl:max-w-7xl mx-auto">
         <SectionTitle
-          first={<FaInstagram fill="#674B24" size={24} />}
+          first={<FaInstagram fill="#283618" size={24} />}
           second={"FOLLOW US"}
           third={false}
           classes={"xl:ps-8"}

@@ -313,8 +313,8 @@ h3 {
   .button-napa {
     @apply rounded-lg bg-napa tracking-wide text-white px-8 py-4 hover:bg-white hover:text-napa duration-150;
   }
-  .button-hillary {
-    @apply rounded-lg bg-hillary tracking-wide text-white px-8 py-4 hover:bg-white hover:text-hillary duration-150;
+  .button-secondary {
+    @apply rounded-lg bg-secondary tracking-wide text-white px-8 py-4 hover:bg-white hover:text-secondary duration-150;
   }
 
   .hero-text {

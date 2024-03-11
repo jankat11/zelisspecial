@@ -17,7 +17,7 @@ const SidebarContent = ({ handleMenuClick }) => {
     <section className="  text-lg uppercase font-raleway font-semibold">
       <li className="py-4 flex items-baseline" onClick={handleMenuClick}>
         <a className="nav-link">Collections</a>
-        <BiDownArrow size={17} fill="#674B24" className="p-0 m-2" />
+        <BiDownArrow size={17} fill="#fff" className="p-0 m-2" />
       </li>
       <ul className="px-4 text-base">
         {categories.map((category, i) => (
@@ -26,7 +26,7 @@ const SidebarContent = ({ handleMenuClick }) => {
           </li>
         ))}
       </ul>
-      <ul className="mt-6 py-6 pt-8 border-t border-primary/20">
+      <ul className="mt-6 py-6 pt-8 border-t border-white/40">
         <li onClick={handleMenuClick}>
           <Link href="/our-story" className="nav-link  whitespace-nowrap ">
             <span>Our Story</span>

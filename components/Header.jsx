@@ -61,11 +61,11 @@ const Header = () => {
   return (
     <>
       <nav
-        className={`w-full border-b border-aside
+        className={`w-full border-b border-neutral
                 fixed top-0
               ${
                 (scrollDown || isDropdownVisible || isOnNavbar) &&
-                " border-b bg-white border-primary/30"
+                " border-b bg-white border-secondary/30"
               }`}
       >
         <ul className={`nav-link-container font-medium inside-container`}>
@@ -196,7 +196,7 @@ const Header = () => {
               size={18}
               fill={
                 scrollDown || isOnNavbar || isDropdownVisible
-                  ? "#674B24"
+                  ? "#030712"
                   : "#fff"
               }
             />
@@ -230,7 +230,7 @@ const Header = () => {
               noText={true}
               classes="relative bottom-[3px]"
               size={25}
-              fill={scrollDown || isOnNavbar ? "#674B24" : "#fff"}
+              fill={scrollDown || isOnNavbar ? "#030712" : "#fff"}
               isMenuOpen={isMenuOpen}
               scrollDown={scrollDown}
             />
@@ -249,7 +249,7 @@ const Header = () => {
                 "border-b-transparent"
               } border-b h-32 opacity-1`
             : "h-0 opacity-0"
-        }  border-primary/30 bg-white overflow-hidden transition-all duration-200 fixed top-16  w-full`}
+        }  border-secondary/30 bg-white overflow-hidden transition-all duration-200 fixed top-16  w-full`}
       >
         <ul className=" inside-container flex items-center h-full gap-8 text-xs uppercase font-medium ">
           {categories.map((category, i) => (

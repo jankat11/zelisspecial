@@ -118,7 +118,7 @@ const About = () => {
             issue with our designs that we work with pleasure at every stage.
           </p>
           <div className="flex gap-6 flex-col justify-center max-w-sm sm:max-w-lg md:max-w-sm mx-auto w-full mt-8 md:mt-0 md:mx-0">
-            <button className="button-hillary font-light text-sm tracking-wider border border-hillary w-full">
+            <button className="button-secondary font-light text-sm tracking-wider border border-secondary w-full">
               contact us
             </button>
             <button className="button-primary font-light text-sm tracking-wider border border-primary w-full ">

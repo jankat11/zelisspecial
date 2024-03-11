@@ -20,7 +20,7 @@ const Sidebar = ({
   };
 
   return (
-    <div className="drawer ">
+    <div className="drawer bg-primary">
       <input id="my-drawer" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content">
         <label htmlFor="my-drawer" className="">
@@ -33,9 +33,9 @@ const Sidebar = ({
           >
             <Hamburger
               classes={
-                !scrollDown && !isMenuOpen && !isOnNavbar
+                (!scrollDown || isMenuOpen) && !isOnNavbar
                   ? "bg-white"
-                  : "bg-primary"
+                  : "bg-gray-950"
               }
             />
           </div>
@@ -49,7 +49,7 @@ const Sidebar = ({
           className="drawer-overlay"
         ></label>
 
-        <div className="bg-white h-screen w-80">
+        <div className="bg-secondaryLight text-white h-screen w-80">
           <div className="mt-16 px-6">
             <SidebarContent handleMenuClick={handleMenuClick} />
           </div>

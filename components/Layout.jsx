@@ -6,11 +6,13 @@ const Layout = ({ children }) => {
   /* (initialLoad && isHomePage) && "opacity-0" */
   return (
     <>
-      <header className={`text-primary w-full z-30 absolute`}>
+      <header className={`text-secondary w-full z-30 absolute`}>
         <Header />
       </header>
-      <main className={`bg-white text-letter h-full w-full`}>{children}</main>
-      <footer className="bg-white">
+      <main className={`bg-white text-secondary h-full w-full`}>
+        {children}
+      </main>
+      <footer className="">
         <Footer />
       </footer>
     </>
