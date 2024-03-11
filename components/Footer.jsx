@@ -16,7 +16,7 @@ const Footer = () => {
           ></path>
         </svg>
       </div>
-      <div className="footer footer-center p-10 z-10 relative text-white rounded bg-secondary">
+      <div className="footer footer-center p-10 z-10 relative text-white  bg-secondary">
         <nav className="grid grid-flow-col gap-4">
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
