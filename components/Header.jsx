@@ -196,7 +196,7 @@ const Header = () => {
               size={18}
               fill={
                 scrollDown || isOnNavbar || isDropdownVisible
-                  ? "#030712"
+                  ? "#283618"
                   : "#fff"
               }
             />
@@ -230,7 +230,7 @@ const Header = () => {
               noText={true}
               classes="relative bottom-[3px]"
               size={25}
-              fill={scrollDown || isOnNavbar ? "#030712" : "#fff"}
+              fill={scrollDown || isOnNavbar ? "#283618" : "#fff"}
               isMenuOpen={isMenuOpen}
               scrollDown={scrollDown}
             />

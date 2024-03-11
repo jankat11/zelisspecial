@@ -35,7 +35,7 @@ const Sidebar = ({
               classes={
                 (!scrollDown || isMenuOpen) && !isOnNavbar
                   ? "bg-white"
-                  : "bg-gray-950"
+                  : "bg-secondary"
               }
             />
           </div>
