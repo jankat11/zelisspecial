@@ -1,6 +1,6 @@
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
 import { FaPinterestP } from "react-icons/fa";
 
 const SocialIcons = ({ size, classes, color }) => {
@@ -14,7 +14,7 @@ const SocialIcons = ({ size, classes, color }) => {
           <FaFacebookF fill={color} size={size} />{" "}
         </a>
         <a href="https://twitter.com/" target="_blank">
-          <FaXTwitter fill={color} size={size} />{" "}
+          <FaYoutube fill={color} size={size} />{" "}
         </a>
         <a href="https://pinterest.com/" target="_blank">
           <FaPinterestP fill={color} size={size} />

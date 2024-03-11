@@ -18,16 +18,16 @@ const Footer = () => {
       </div>
       <div className="footer footer-center p-10 z-10 relative text-white  bg-secondary">
         <nav className="grid grid-flow-col gap-4">
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Terms</a>
+          <a className="link link-hover">Hakkında</a>
+          <a className="link link-hover whitespace-nowrap">Koşullar</a>
+          <a className="link link-hover">İletişim</a>
+          <a className="link link-hover">Çeşitlerimiz</a>
         </nav>
         <nav>
           <SocialIcons classes="" color="#fff" size={25} />
         </nav>
         <aside>
-          <p>Copyright © 2023 - All right reserved by design4theplanet</p>
+          <p>Copyright © 2024 - Tüm hakları saklıdır. Zeliş&apos;in Mutfağı</p>
         </aside>
       </div>
     </div>
