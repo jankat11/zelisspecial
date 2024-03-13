@@ -78,7 +78,7 @@ h3 {
 } */
 
 .colar {
-  color: rgb(96, 108, 56);
+  color: rgb(40, 54, 24);
 }
 
 .header {
@@ -310,9 +310,7 @@ h3 {
   .button-primary {
     @apply rounded-lg bg-primary tracking-wide text-white px-8 py-4 hover:bg-white hover:text-primary  duration-150;
   }
-  .button-napa {
-    @apply rounded-lg bg-napa tracking-wide text-white px-8 py-4 hover:bg-white hover:text-napa duration-150;
-  }
+
   .button-secondary {
     @apply rounded-lg bg-secondary tracking-wide text-white px-8 py-4 hover:bg-white hover:text-secondary duration-150;
   }
@@ -396,7 +394,7 @@ h3 {
     @apply w-screen h-screen overflow-y-hidden flex relative justify-center items-center;
   }
   .inside-container {
-    @apply px-4 md:max-w-4xl lg:max-w-5xl max-w-5xl xl:max-w-7xl mx-auto;
+    @apply px-4 md:max-w-4xl lg:max-w-5xl max-w-5xl xl:max-w-[1280px]  2xl:max-w-[1536px] mx-auto;
   }
   .breadcrumbs-container {
     @apply px-4 lg:max-w-5xl max-w-5xl xl:max-w-7xl mx-auto;

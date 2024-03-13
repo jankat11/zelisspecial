@@ -8,7 +8,7 @@ const CompareImages = () => {
       <div className="pb-6 max-w-5xl xl:max-w-7xl mx-auto">
         <SectionTitle
           first={"THE HEALING POVER OF ART"}
-          second={"OUR STORY"}
+          second={"HİKAYEMİZ"}
           third={true}
           link={"/our-story"}
         />
