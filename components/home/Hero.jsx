@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { SlArrowDown } from "react-icons/sl";
 
 const Hero = () => {
   /*   const storeRef = useRef(); */
@@ -38,10 +39,11 @@ const Hero = () => {
               keşfedin ve sipariş verin.
             </p>
             <a className="">
-              <button className="button-primary rounded-full w-full ">
+              <button className="button-primary rounded-full w-full">
                 <div className="flex justify-center items-center gap-1">
-                  <span className="font-light text-sm tracking-wider">
-                    çeşitlerimizi görün
+                  <span className="font-light text-sm tracking-wider flex align-center items-center gap-2">
+                    mutfağımızı keşfedin
+                    <SlArrowDown size={17} className="p-0 m-0" />
                   </span>{" "}
                 </div>
               </button>
@@ -50,8 +52,6 @@ const Hero = () => {
         </div>
         <div className="w-full lg:hidden h-[22rem] bg-white absolute z-10 -translate-y-1"></div>
       </div>
-
-      {/* <SlArrowDown size={17} className="p-0 m-0" /> */}
     </section>
   );
 };
