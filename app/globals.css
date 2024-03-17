@@ -308,7 +308,7 @@ h3 {
   }
 
   .button-primary {
-    @apply rounded-lg bg-primary tracking-wide text-white px-8 py-4 hover:bg-white hover:text-primary  duration-150;
+    @apply rounded-lg bg-primary tracking-wide text-white px-8 py-4 hover:bg-white hover:text-primary border border-primary duration-150;
   }
 
   .button-secondary {
@@ -316,7 +316,7 @@ h3 {
   }
 
   .hero-text {
-    @apply relative text-white font-light text-2xl select-none sm:text-3xl md:text-4xl  mt-0  py-6 tracking-wide uppercase text-center;
+    @apply relative text-white font-light text-2xl select-none sm:text-3xl md:text-4xl  mt-0  py-4 tracking-wide uppercase text-center;
   }
   .img-container {
     @apply rounded-sm mx-auto md:mx-0 max-w-sm sm:max-w-lg  w-full;

@@ -29,16 +29,16 @@ const Hero = () => {
           ></path>
         </svg>
         <div className=" absolute top-[100%] z-30 w-full ">
-          <div className="flex flex-col inside-container relative bottom-4 items-center lg:items-start lg:justify-center  gap-2">
-            <p className="hero-text text-secondary pt-0 py-4 font-semibold">
+          <div className="flex flex-col inside-container relative bottom-8 items-center lg:items-start lg:justify-center ">
+            <p className="hero-text text-secondary pt-0 font-semibold">
               Zelİş&apos;İn mutfağından lezzetler
             </p>
-            <p className="text-center pb-4">
-              tamamen ev yapımı, doğal, sağlılı, lezzet dolu yemeklerimizi
+            <p className="text-center pb-4 ">
+              tamamen ev yapımı, doğal, sağlıklı, lezzet dolu yemeklerimizi
               keşfedin ve sipariş verin.
             </p>
             <a className="">
-              <button className="button-primary w-full ">
+              <button className="button-primary rounded-full w-full ">
                 <div className="flex justify-center items-center gap-1">
                   <span className="font-light text-sm tracking-wider">
                     çeşitlerimizi görün
@@ -56,15 +56,3 @@ const Hero = () => {
   );
 };
 export default Hero;
-
-/*   useEffect(() => {
-  let innerHeight = window.innerHeight;
-  window.onresize = () => setHeight(window.innerHeight);
-  setHeight(innerHeight);
-}, [height, innerHeight]); */
-
-{
-  /*  <p className="hero-text  pt-0 py-4">
-<span className="font-serif text-3xl sm:text-4xl md:text-5xl">t</span>he healing pover of art
-</p> */
-}
