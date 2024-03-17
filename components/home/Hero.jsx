@@ -31,7 +31,7 @@ const Hero = () => {
         <div className=" absolute top-[100%] z-30 w-full ">
           <div className="flex flex-col inside-container relative bottom-4 items-center lg:items-start lg:justify-center  gap-2">
             <p className="hero-text text-secondary pt-0 py-4 font-semibold">
-              Zelİş'İn mutfağından lezzetler
+              Zelİş&apos;İn mutfağından lezzetler
             </p>
             <p className="text-center pb-4">
               tamamen ev yapımı, doğal, sağlılı, lezzet dolu yemeklerimizi

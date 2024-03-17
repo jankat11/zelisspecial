@@ -19,7 +19,7 @@ const CompareImages = () => {
             <Image
               width={650}
               height={400}
-              src="/homepage/comp1.jpg"
+              src="/homepage/compare2.jpg"
               alt="Image one"
             />
           }
@@ -27,7 +27,7 @@ const CompareImages = () => {
             <Image
               width={650}
               height={400}
-              src="/homepage/comp.jpg"
+              src="/homepage/compare1.jpg"
               alt="Image two"
             />
           }
