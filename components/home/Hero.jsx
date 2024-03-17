@@ -28,32 +28,29 @@ const Hero = () => {
             strokeLinejoin="miter"
           ></path>
         </svg>
+        <div className=" absolute top-[100%] z-30 w-full ">
+          <div className="flex flex-col inside-container relative bottom-4 items-center lg:items-start lg:justify-center  gap-2">
+            <p className="hero-text text-secondary pt-0 py-4 font-semibold">
+              Zelİş'İn mutfağından lezzetler
+            </p>
+            <p className="text-center pb-4">
+              tamamen ev yapımı, doğal, sağlılı, lezzet dolu yemeklerimizi
+              keşfedin ve sipariş verin.
+            </p>
+            <a className="">
+              <button className="button-primary w-full ">
+                <div className="flex justify-center items-center gap-1">
+                  <span className="font-light text-sm tracking-wider">
+                    çeşitlerimizi görün
+                  </span>{" "}
+                </div>
+              </button>
+            </a>
+          </div>
+        </div>
         <div className="w-full lg:hidden h-[22rem] bg-white absolute z-10 -translate-y-1"></div>
       </div>
-      {/*         <svg viewBox="0 0 900 600" className="hidden lg:block">
-          <path
-            d="M0 60L16.7 65.8C33.3 71.7 66.7 83.3 100 85.7C133.3 88 166.7 81 200 83.8C233.3 86.7 266.7 99.3 300 100.8C333.3 102.3 366.7 92.7 400 85C433.3 77.3 466.7 71.7 500 79.2C533.3 86.7 566.7 107.3 600 112.8C633.3 118.3 666.7 108.7 700 107.7C733.3 106.7 766.7 114.3 800 117.8C833.3 121.3 866.7 120.7 883.3 120.3L900 120L900 201L883.3 201C866.7 201 833.3 201 800 201C766.7 201 733.3 201 700 201C666.7 201 633.3 201 600 201C566.7 201 533.3 201 500 201C466.7 201 433.3 201 400 201C366.7 201 333.3 201 300 201C266.7 201 233.3 201 200 201C166.7 201 133.3 201 100 201C66.7 201 33.3 201 16.7 201L0 201Z"
-            fill="#0066FF"
-            stroke-linecap="round"
-            stroke-linejoin="miter"
-          ></path>
-        </svg> */}
-      <div className=" absolute top-[72%] z-10 w-full ">
-        <div className="flex flex-col inside-container relative bottom-4 items-center lg:items-start lg:justify-center  gap-2">
-          <p className="hero-text  pt-0 py-4">
-            <span className="">U</span>pcycled Products
-          </p>
-          <a className="">
-            <button className="button-primary w-full ">
-              <div className="flex justify-center items-center gap-1">
-                <span className="font-light text-sm tracking-wider">
-                  shop now
-                </span>{" "}
-              </div>
-            </button>
-          </a>
-        </div>
-      </div>
+
       {/* <SlArrowDown size={17} className="p-0 m-0" /> */}
     </section>
   );

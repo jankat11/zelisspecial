@@ -7,23 +7,24 @@ import HomeVitra from "@/components/home/HomeVitra";
 import HomeInstagram from "@/components/home/HomeInstagram";
 import CompareImages from "@/components/home/CompareImages";
 
-
-
 export default function Home() {
-
-
-
   return (
     <>
       <Hero />
       <IntroductionList />
-      <CompareImages />
       <HomeVitra />
+      <CompareImages />
       <HomeInstagram />
     </>
   );
 }
 
-      {/* <HomeProducts products={"newArrivals"} title={"NEW ARRIVALS"} /> */}
-     {/*  <HomeProducts products={"plates"}  title={"PLATES"} /> */}
-   {/*    <HomeProducts products={"bags"} title={"BAGS"} /> */}
+{
+  /* <HomeProducts products={"newArrivals"} title={"NEW ARRIVALS"} /> */
+}
+{
+  /*  <HomeProducts products={"plates"}  title={"PLATES"} /> */
+}
+{
+  /*    <HomeProducts products={"bags"} title={"BAGS"} /> */
+}
