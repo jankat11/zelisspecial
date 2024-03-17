@@ -1,5 +1,5 @@
 /* import { shopifyFetch, storefront } from "@/utils"; */
-/* import axios from "axios"; */
+
 import IntroductionItem from "../IntroductionItem";
 
 const IntroductionList = () => {
@@ -10,10 +10,16 @@ const IntroductionList = () => {
           title={"kuru tatlı"}
           introImage={"/homepage/intro2.jpg"}
         />
-        <IntroductionItem title={"yaş tatlı & pasta"} introImage={"/homepage/intro4.jpg"} />
-        <IntroductionItem title={"börek & çörek"} introImage={"/homepage/intro5.jpg"} />
+        <IntroductionItem
+          title={"yaş tatlı & pasta"}
+          introImage={"/homepage/intro4.jpg"}
+        />
+        <IntroductionItem
+          title={"börek & çörek"}
+          introImage={"/homepage/intro5.jpg"}
+        />
       </div>
-{/*       <p className="introTitle inside-container ">
+      {/*       <p className="introTitle inside-container ">
         <span className=" ">W</span>e value our planet and are dedicated to
         contributing to its well-being by upcycling waste materials and turning
         them into one of a kind gadgets, utensils and art objects.
@@ -22,8 +28,6 @@ const IntroductionList = () => {
   );
 };
 export default IntroductionList;
-
-
 
 {
   /*           <div className="overflow-hidden sm:rounded-sm">
