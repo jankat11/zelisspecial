@@ -315,6 +315,10 @@ h3 {
     @apply rounded-lg bg-secondary tracking-wide text-white px-8 py-4 hover:bg-white hover:text-secondary duration-150;
   }
 
+  .button-secondary-outline {
+    @apply rounded-lg bg-white tracking-wide border border-secondary text-secondary px-8 py-4 hover:bg-secondary hover:text-white duration-150;
+  }
+
   .hero-text {
     @apply relative text-white font-light text-2xl select-none sm:text-3xl md:text-4xl  mt-0  py-4 tracking-wide uppercase text-center;
   }
@@ -445,6 +449,12 @@ h3 {
     font-size: 1rem;
   }
 }
+
+/* @media (min-width: 1025px) {
+  .hero-content-text {
+    line-height: 1.5 !important;
+  }
+} */
 
 .containerss {
   display: flex;
