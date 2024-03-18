@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { SlArrowDown } from "react-icons/sl";
+import { BsTelephoneForwardFill } from "react-icons/bs";
 
 const Hero = () => {
   /*   const storeRef = useRef(); */
@@ -31,7 +32,7 @@ const Hero = () => {
         </svg>
         <div className=" absolute top-[100%] lg:top-[40%] z-30 w-full ">
           <div className="inside-container p-0 flex justify-center lg:justify-start">
-            <div className="flex flex-col relative rounded bg-white lg:p-12 lg:py-8 lg:right-8 bottom-8 sm:bottom-16 md:bottom-20 items-center lg:items-start lg:justify-center w-fit">
+            <div className="flex flex-col relative rounded px-4 bg-white lg:p-12 lg:py-8 lg:right-8 bottom-8 sm:bottom-16 md:bottom-20 items-center lg:items-start lg:justify-center w-fit">
               <p className="hero-text text-secondary pt-0 font-semibold">
                 Zelİş&apos;İn mutfağından lezzetler
               </p>
@@ -39,23 +40,23 @@ const Hero = () => {
                 tamamen ev yapımı, doğal, sağlıklı, lezzet dolu yemeklerimizi
                 keşfedin ve sipariş verin.
               </p>
-              <div className="flex flex-col lg:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start w-full">
                 <a className="">
-                  <button className="button-primary rounded-full w-full">
+                  <button className="button-primary rounded-full w-full min-w-64">
                     <div className="flex justify-center items-center gap-1">
-                      <span className="font-light text-sm tracking-wider flex align-center items-center gap-2">
+                      <span className="font-medium text-sm tracking-wider flex align-center items-center gap-2">
                         mutfağımızı keşfedin
-                        {/* <SlArrowDown size={15} className="p-0 m-0" /> */}
+                        <SlArrowDown size={15} className="p-0 m-0" />
                       </span>{" "}
                     </div>
                   </button>
                 </a>
                 <a className="">
-                  <button className="button-secondary-outline rounded-full w-full">
+                  <button className="button-secondary rounded-full w-full min-w-64">
                     <div className="flex justify-center items-center gap-1">
-                      <span className="font-light text-sm tracking-wider flex align-center items-center gap-2">
+                      <span className=" text-sm tracking-wider flex align-center items-center gap-2">
                         sipariş verin
-                        {/* <SlArrowDown size={15} className="p-0 m-0" /> */}
+                        <BsTelephoneForwardFill size={15} className="p-0 m-0" />
                       </span>{" "}
                     </div>
                   </button>
