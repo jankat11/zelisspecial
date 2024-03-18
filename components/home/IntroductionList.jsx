@@ -4,7 +4,10 @@ import IntroductionItem from "../IntroductionItem";
 
 const IntroductionList = () => {
   return (
-    <section id="home-store" className="relative pb-10 mt-56 inside-container">
+    <section
+      id="home-store"
+      className="relative z-20 pt-20 pb-10 inside-container"
+    >
       <div className="grid relative md:grid-cols-3 gap-8">
         <IntroductionItem
           title={"kuru tatlı"}

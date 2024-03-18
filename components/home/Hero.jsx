@@ -11,7 +11,7 @@ const Hero = () => {
 
   return (
     <section className="h-screen md:h-auto  m-0 p-0  relative ">
-      <div className="lg:w-full relative z-10 h-screen bg-[#A9A193]">
+      <div className="lg:w-full relative z-10 h-[80%] md:h-screen overflow-hidden bg-[#A9A193]">
         <Image
           src={"/hero.jpg"}
           width={2500}
