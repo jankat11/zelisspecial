@@ -95,7 +95,7 @@ const Header = () => {
                     !isOnNavbar &&
                     !isDropdownVisible &&
                     "text-white"
-                  }`}
+                  } ${isDropdownVisible && "text-primary"}`}
                 >
                   ÇEŞİTLERİMİZ
                 </span>

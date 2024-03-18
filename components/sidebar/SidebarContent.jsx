@@ -3,20 +3,20 @@ import { CiMail } from "react-icons/ci";
 import { BiDownArrow } from "react-icons/bi";
 
 const categories = [
-  "Coctail Picks",
-  "Plates & Bowls",
-  "Trays",
-  "Drawer Knob",
-  "Charcuterie Platter",
-  "Pillowcase",
-  "Backgammon",
+  "KURU TATLI",
+  "YAŞ TATLI & PASTA",
+  "BÖREK VE ÇÖREKLER",
+  "ARA SICAK",
+  "SULU YEMEK",
+  "ŞEFİN TAVSİYESİ",
+  "ÇORBA",
 ];
 
 const SidebarContent = ({ handleMenuClick }) => {
   return (
-    <section className="  text-lg uppercase font-raleway font-semibold">
+    <section className="  text-lg font-raleway font-semibold">
       <li className="py-4 flex items-baseline" onClick={handleMenuClick}>
-        <a className="nav-link">Collections</a>
+        <a className="nav-link">ÇEŞİTLERİMİZ</a>
         <BiDownArrow size={17} fill="#fff" className="p-0 m-2" />
       </li>
       <ul className="px-4 text-base">
@@ -29,17 +29,15 @@ const SidebarContent = ({ handleMenuClick }) => {
       <ul className="mt-6 py-6 pt-8 border-t border-white/40">
         <li onClick={handleMenuClick}>
           <Link href="/our-story" className="nav-link  whitespace-nowrap ">
-            <span>Our Story</span>
+            <span>HAKKINDA</span>
           </Link>
         </li>
         <li className="py-6" onClick={handleMenuClick}>
           <a className="nav-link">
-            <span >
-              Contact
-            </span>
+            <span>SİPARİŞ</span>
           </a>
         </li>
-       {/*  <li className="" onClick={handleMenuClick}>
+        {/*  <li className="" onClick={handleMenuClick}>
           <a className="nav-link lowercase">info@design4theplanet.com</a>
         </li> */}
       </ul>
