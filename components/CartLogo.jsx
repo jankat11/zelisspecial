@@ -1,4 +1,4 @@
-import { PiShoppingCartSimple } from "react-icons/pi";
+import { BsTelephoneForwardFill } from "react-icons/bs";
 import Link from "next/link";
 
 const CartLogo = ({ noText, classes, size, fill, scrollDown, isMenuOpen }) => {
@@ -14,7 +14,7 @@ const CartLogo = ({ noText, classes, size, fill, scrollDown, isMenuOpen }) => {
           {/* <span className={`indicator-item badge absolute -top-[2px] px-[10px] right-[-3px] ${scrollDown || isMenuOpen ? " bg-[#6b593c] border-[#6b593c] text-white" : " border-aside "} transition-all duration-0 mb-2`}>
             <span className="absolute">1</span>
           </span> */}
-          <PiShoppingCartSimple size={size} fill={fill ? fill : "#674B24"} />
+          <BsTelephoneForwardFill size={size} fill={fill ? fill : "#674B24"} />
         </div>
       </span>
       {/* <div className={`text-line`}></div> */}

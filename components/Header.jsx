@@ -8,13 +8,13 @@ import Link from "next/link";
 import Sidebar from "./sidebar/Sidebar";
 
 const categories = [
-  "Coctail Picks",
-  "Plates & Bowls",
-  "Trays",
-  "Drawer Knob",
-  "Charcuterie Platter",
-  "Pillowcase",
-  "Backgammon",
+  "KURU TATLI",
+  "YAŞ TATLI & PASTA",
+  "BÖREK VE ÇÖREKLER",
+  "ARA SICAK",
+  "SULU YEMEK",
+  "ŞEFİN TAVSİYESİ",
+  "ÇORBA",
 ];
 
 const Header = () => {
@@ -97,7 +97,7 @@ const Header = () => {
                     "text-white"
                   }`}
                 >
-                  Collections
+                  ÇEŞİTLERİMİZ
                 </span>
                 <div
                   className={`text-line ${
@@ -117,7 +117,23 @@ const Header = () => {
                     "text-white"
                   }`}
                 >
-                  Contact
+                  EN ÇOK SATAN
+                </span>
+                <div className="text-line"></div>
+              </Link>
+              <Link
+                href="/"
+                className={`nav-link top-nav px-5 flex items-center whitespace-nowrap `}
+              >
+                <span
+                  className={`${
+                    !scrollDown &&
+                    !isOnNavbar &&
+                    !isDropdownVisible &&
+                    "text-white"
+                  }`}
+                >
+                  ŞEFİN TAVSİYESİ
                 </span>
                 <div className="text-line"></div>
               </Link>
@@ -133,25 +149,9 @@ const Header = () => {
                     "text-white"
                   }`}
                 >
-                  Our Story
+                  HAKKINDA
                 </span>
 
-                <div className="text-line"></div>
-              </Link>
-              <Link
-                href="/"
-                className={`nav-link top-nav px-5 flex items-center whitespace-nowrap `}
-              >
-                <span
-                  className={`${
-                    !scrollDown &&
-                    !isOnNavbar &&
-                    !isDropdownVisible &&
-                    "text-white"
-                  }`}
-                >
-                  New Arrivals
-                </span>
                 <div className="text-line"></div>
               </Link>
             </div>
@@ -187,13 +187,13 @@ const Header = () => {
                   "text-white"
                 }`}
               >
-                Cart
+                Sipariş
               </span>
             </Link>
             <CartLogo
               noText={true}
               scrollDown={scrollDown}
-              size={18}
+              size={16}
               fill={
                 scrollDown || isOnNavbar || isDropdownVisible
                   ? "#283618"
@@ -229,7 +229,7 @@ const Header = () => {
             <CartLogo
               noText={true}
               classes="relative bottom-[3px]"
-              size={25}
+              size={20}
               fill={scrollDown || isOnNavbar ? "#283618" : "#fff"}
               isMenuOpen={isMenuOpen}
               scrollDown={scrollDown}
@@ -251,7 +251,7 @@ const Header = () => {
             : "h-0 opacity-0"
         }  border-secondary/30 bg-white overflow-hidden transition-all duration-200 fixed top-16  w-full`}
       >
-        <ul className=" inside-container flex items-center h-full gap-8 text-xs uppercase font-medium ">
+        <ul className=" inside-container flex items-center h-full gap-8 text-xs font-medium ">
           {categories.map((category, i) => (
             <li className="nav-link" key={i}>
               {category}
