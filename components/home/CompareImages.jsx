@@ -4,7 +4,7 @@ import { ReactCompareSlider } from "react-compare-slider";
 
 const CompareImages = () => {
   return (
-    <div className="lg:py-14 py-12 sm:hidden overflow-x-hidden">
+    <div className="py-24 sm:hidden overflow-x-hidden">
       <div className="pb-6 max-w-5xl xl:max-w-7xl mx-auto">
         <SectionTitle
           first={"THE HEALING POVER OF ART"}

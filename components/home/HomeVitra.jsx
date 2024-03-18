@@ -2,10 +2,12 @@ import Image from "next/image";
 
 const HomeVitra = () => {
   return (
-    <section className="lg:py-14 py-10 lg:pb-20 inside-container">
+    <section className="lg:py-28 py-24 inside-container">
       <div className="relative overflow-hidden cursor-pointer">
         <div className="w-full limited-edition">
-          <p className="hero-text  inside-container relative  sm:left-16 xl:left-0 text-left text-xl sm:text-3xl md:text-4xl xl:text-5xl">şefin tavsiyesi</p>
+          <p className="hero-text  inside-container relative  sm:left-16 xl:left-0 text-left text-xl sm:text-3xl md:text-4xl xl:text-5xl">
+            şefin tavsiyesi
+          </p>
         </div>
         <Image
           src={"/homepage/bsd.jpg"}

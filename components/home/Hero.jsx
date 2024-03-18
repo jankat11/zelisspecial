@@ -10,7 +10,7 @@ const Hero = () => {
   }; */
 
   return (
-    <div className="pb-4 xs:pb-32 sm:pb-0 lg:pb-32">
+    <div className="pb-4 xs:pb-44 sm:pb-0 lg:pb-32">
       <section className="h-screen md:h-auto  m-0 p-0  relative ">
         <div className="lg:w-full relative z-10 h-[80%] md:h-screen overflow-hidden bg-[#A9A193]">
           <Image
