@@ -19,7 +19,7 @@ const ReactCarousel = ({ centerMode, partial, showDots, children }) => {
   };
 
   return (
-    <section className="">
+    <section className="   ">
       <Carousel
         additionalTransfrom={0}
         customDot={<CustomDot />}
