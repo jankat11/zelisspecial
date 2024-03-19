@@ -1,6 +1,6 @@
 /* import { shopifyFetch, storefront } from "@/utils"; */
 
-import IntroductionItem from "../IntroductionItem";
+import IntroductionItem from "../introduction-item";
 
 const IntroductionList = () => {
   return (

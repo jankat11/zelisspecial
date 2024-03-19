@@ -1,11 +1,11 @@
-import About from "@/components/About"
+import About from "@/components/about";
 
 const OurStory = () => {
   /* await new Promise((resolve) => setTimeout(resolve, 2000)) */
   return (
     <>
-      <About />      
+      <About />
     </>
-  )
-}
-export default OurStory
+  );
+};
+export default OurStory;

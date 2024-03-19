@@ -1,5 +1,5 @@
-import SectionTitle from "../SectionTitle";
-import InstagramModal from "../InstagramModal";
+import SectionTitle from "../section-title";
+import InstagramModal from "../instagram-modal";
 import { FaInstagram } from "react-icons/fa";
 
 const data = [

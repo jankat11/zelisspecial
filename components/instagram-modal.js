@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FaInstagram } from "react-icons/fa";
 import { useRef, useState, useEffect } from "react";
 import { createPortal } from "react-dom";
-import InstagramTitle from "./InstagramTitle";
+import InstagramTitle from "./instagram-title";
 
 const InstagramModal = ({ imageItem }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);

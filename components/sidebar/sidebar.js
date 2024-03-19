@@ -1,6 +1,6 @@
-import SidebarContent from "./SidebarContent";
+import SidebarContent from "./sidebarContent";
 import { useRef, useEffect, useState } from "react";
-import Hamburger from "./Hamburger";
+import Hamburger from "./hamburger";
 
 const Sidebar = ({
   handleClick,

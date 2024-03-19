@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { PiShoppingCartSimple } from "react-icons/pi";
-import BreadCrumbs from "@/components/BreadCrumbs";
+import BreadCrumbs from "@/components/bread-crumbs";
 
 const data = [
   { product: "amorf tabak", price: "1600", image: "/plates/p3.png" },
@@ -15,7 +15,7 @@ const data = [
 const ProductList = ({ params }) => {
   return (
     <>
-      <BreadCrumbs page={params.productList}/>
+      <BreadCrumbs page={params.productList} />
 
       <section className="pb-10 ">
         <div className="mx-auto grid gap-10 breadcrumbs-container grid-cols-1 p-4 pt-0 sm:grid-cols-2  lg:grid-cols-3  xl:grid-cols-4">

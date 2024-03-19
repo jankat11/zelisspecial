@@ -2,10 +2,10 @@
 import PropTypes from "prop-types";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import D4P from "./D4P";
-import CartLogo from "./CartLogo";
+import D4P from "./d4p";
+import CartLogo from "./cart-logo";
 import Link from "next/link";
-import Sidebar from "./sidebar/Sidebar";
+import Sidebar from "./sidebar/sidebar";
 
 const categories = [
   "KURU TATLI",

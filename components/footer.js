@@ -1,4 +1,4 @@
-import SocialIcons from "./SocialIcons";
+import SocialIcons from "./social-icons";
 
 const Footer = () => {
   return (

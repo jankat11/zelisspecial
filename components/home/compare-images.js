@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SectionTitle from "../SectionTitle";
+import SectionTitle from "../section-title";
 import { ReactCompareSlider } from "react-compare-slider";
 
 const CompareImages = () => {
@@ -15,24 +15,6 @@ const CompareImages = () => {
           />
         </div>
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center xl:justify-between ">
-          <ReactCompareSlider
-            itemOne={
-              <Image
-                width={800}
-                height={400}
-                src="/homepage/compare2.jpg"
-                alt="Image one"
-              />
-            }
-            itemTwo={
-              <Image
-                width={800}
-                height={400}
-                src="/homepage/compare1.jpg"
-                alt="Image two"
-              />
-            }
-          />
           <div className=" w-full sm:max-w-[50%]">
             <iframe
               className="w-full aspect-[2/1]"
@@ -46,3 +28,34 @@ const CompareImages = () => {
   );
 };
 export default CompareImages;
+
+{
+  /* <div className=" w-full sm:max-w-[50%]">
+<iframe
+  className="w-full aspect-[2/1]"
+  id="musicplayer"
+  src="https://www.youtube.com/embed/QuNhTLVgV2Y"
+></iframe>
+</div> */
+}
+
+{
+  /* <ReactCompareSlider
+itemOne={
+  <Image
+    width={800}
+    height={400}
+    src="/homepage/compare2.jpg"
+    alt="Image one"
+  />
+}
+itemTwo={
+  <Image
+    width={800}
+    height={400}
+    src="/homepage/compare1.jpg"
+    alt="Image two"
+  />
+}
+/> */
+}
