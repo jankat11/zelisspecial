@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 
 const IntroductionTitle = ({ isRight, title }) => {
   const [ref, inView] = useInView({
-    threshold: 0.5,
+    threshold: 1,
     triggerOnce: true,
   });
   return (
