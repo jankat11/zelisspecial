@@ -366,7 +366,7 @@ h3 {
     @apply absolute  hover:bg-transparent top-4 right-4 left-4 bottom-4 bg-transparent  z-10;
   }
   .home-images-title {
-    @apply mx-auto md:ml-0  w-fit bg-neutral cursor-pointer  rounded-sm text-3xl  p-2 px-16 text-primary tracking-wider;
+    @apply md:mx-auto md:ml-0 w-fit  text-center bg-primary border border-primary cursor-pointer  md:rounded-full text-3xl md:text-xl px-8 p-4  text-white tracking-wider;
   }
   .slideController {
     @apply absolute  w-1/2 h-[80%] bottom-0;
@@ -470,4 +470,35 @@ h3 {
   position: sticky;
   bottom: 0rem;
   align-self: flex-end;
+}
+
+.tilt-in-bottom-1 {
+	-webkit-animation: tilt-in-bottom-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: tilt-in-bottom-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes tilt-in-bottom-1 {
+  0% {
+    -webkit-transform: rotateY(30deg) translateY(300px) skewY(-30deg);
+            transform: rotateY(30deg) translateY(300px) skewY(-30deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+            transform: rotateY(0deg) translateY(0) skewY(0deg);
+    opacity: 1;
+  }
+}
+@keyframes tilt-in-bottom-1 {
+  0% {
+    -webkit-transform: rotateY(30deg) translateY(300px) skewY(-30deg);
+            transform: rotateY(30deg) translateY(300px) skewY(-30deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+            transform: rotateY(0deg) translateY(0) skewY(0deg);
+    opacity: 1;
+  }
 }

@@ -1,4 +1,4 @@
-import "animate.css";
+
 import Hero from "../components/home/hero";
 import IntroductionList from "../components/home/introduction-list";
 /* import Map from "@/components/map/Map"; */

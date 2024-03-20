@@ -8,7 +8,7 @@ const IntroductionList = () => {
       id="home-store"
       className="relative z-20  inside-container px-0 md:px-4"
     >
-      <div className="grid relative md:grid-cols-3 gap-8">
+      <div className="grid relative md:grid-cols-3 ">
         <IntroductionItem
           title={"yaş tatlı & pasta"}
           introImage={"/homepage/intro1.png"}
@@ -16,10 +16,11 @@ const IntroductionList = () => {
         <IntroductionItem
           title={"baklava çeşitleri"}
           introImage={"/homepage/intro2.png"}
+          isRight={true}
         />
         <IntroductionItem
-          title={"börek & çörek"}
-          introImage={"/homepage/intro5.jpg"}
+          title={"kurabiye & kek"}
+          introImage={"/homepage/intro3.png"}
         />
       </div>
       {/*       <p className="introTitle inside-container ">
