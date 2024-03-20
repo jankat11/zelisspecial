@@ -19,7 +19,7 @@ const Hero = () => {
             height={2500}
             priority
             alt="hero"
-            className="object-cover object-top w-screen h-screen home-prod-img -z-10"
+            className="object-cover object-top w-screen h-screen home-prod-img -z-10 brightness-[90%]"
           />
         </div>
         <div className=" w-full z-20 top-[100%] absolute -translate-y-[240%] xs:-translate-y-[140%]  lg:-translate-y-[90%] xl:-translate-y-[80%]">

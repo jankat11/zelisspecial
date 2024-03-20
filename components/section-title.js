@@ -3,11 +3,12 @@ import Link from "next/link";
 const SectionTitle = ({ first, second, classes, third, link }) => {
   return (
     <div
-      className={`font-raleway w-full sm:w-fit whitespace-nowrap ${
-        third && "flex sm:block items-end justify-between"
+      className={`font-raleway w-full underline sm:w-fit whitespace-nowrap ${
+        third && "flex sm:block justify-between"
       } ${classes}`}
     >
-      <span
+      <Link
+         href={link ? link : "#"}
         className={`${
           third ? "flex flex-col gap-2 sm:inline" : "flex items-center"
         }`}
@@ -19,21 +20,18 @@ const SectionTitle = ({ first, second, classes, third, link }) => {
               third && "hidden sm:inline"
             }`}
           >
-            |
+            
           </span>
         )}
         <span className="">{second}</span>
-      </span>
+      </Link>
+        
       {third && (
-        <Link
-          href={link ? link : ""}
-          className="text-secondary px-4 inline-block cursor-pointer whitespace-nowrap"
-        >
-          {/* <div className="h-3 w-3 rounded-full inline-block bg-secondary "></div>{" "} */}
+        
+      
           <span className="px-2 relative bottom-[2px] right-[2px] text-xs tracking-widest font-medium underline">
             {"bir mutfak masalı"}
           </span>
-        </Link>
       )}
     </div>
   );

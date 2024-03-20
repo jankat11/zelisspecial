@@ -10,12 +10,12 @@ const IntroductionList = () => {
     >
       <div className="grid relative md:grid-cols-3 gap-8">
         <IntroductionItem
-          title={"kuru tatlı"}
-          introImage={"/homepage/intro2.jpg"}
+          title={"yaş tatlı & pasta"}
+          introImage={"/homepage/intro1.png"}
         />
         <IntroductionItem
-          title={"yaş tatlı & pasta"}
-          introImage={"/homepage/intro4.jpg"}
+          title={"baklava çeşitleri"}
+          introImage={"/homepage/intro2.png"}
         />
         <IntroductionItem
           title={"börek & çörek"}

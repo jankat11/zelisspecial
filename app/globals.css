@@ -37,6 +37,7 @@ body {
   opacity: 1;
   width: calc(100% - 40px);
   transition: all 0.4s;
+  color: rgb(253, 238, 217);
 }
 
 .text-line {
@@ -365,7 +366,7 @@ h3 {
     @apply absolute  hover:bg-transparent top-4 right-4 left-4 bottom-4 bg-transparent  z-10;
   }
   .home-images-title {
-    @apply mx-auto md:ml-0  w-fit  cursor-pointer  rounded-sm text-3xl  p-2 px-16 text-white tracking-wider;
+    @apply mx-auto md:ml-0  w-fit bg-neutral cursor-pointer  rounded-sm text-3xl  p-2 px-16 text-primary tracking-wider;
   }
   .slideController {
     @apply absolute  w-1/2 h-[80%] bottom-0;

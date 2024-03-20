@@ -15,11 +15,13 @@ module.exports = {
 
     extend: {
       colors: {
-        primary: "#BC6C25",
-        primaryLight: "#DDA15E",
-        secondary: "#283618",
-        secondaryLight: "#606C38",
-        neutral: "#FEFAE0",
+        primary: "#d4216c",
+        primaryLight: "#ffadc6",
+        secondary: "#3f2613",
+        secondaryLight: "#a98360",
+        neutral: "#fdeed9",
+
+        
         aside: "#fffdf3",
     
         westar: "#E0DBD3",    

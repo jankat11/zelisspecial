@@ -49,7 +49,7 @@ const Sidebar = ({
           className="drawer-overlay"
         ></label>
 
-        <div className="bg-secondaryLight text-white h-screen w-80">
+        <div className="bg-secondary text-white h-screen w-80">
           <div className="mt-16 px-6">
             <SidebarContent handleMenuClick={handleMenuClick} />
           </div>

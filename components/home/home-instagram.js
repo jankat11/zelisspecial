@@ -35,10 +35,9 @@ const HomeInstagram = () => {
     <section className="pb-10 sm:pt-24 inside-container">
       <div className="pb-2 sm:pb-2 ">
         <SectionTitle
-          first={<FaInstagram fill="#283618" size={24} />}
+          first={<FaInstagram fill="#3f2613" size={24} />}
           second={"BİZİ TAKİP EDİN"}
           third={false}
-          classes={"xl:ps-8"}
         />
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 pt-4 gap-[2px]">
