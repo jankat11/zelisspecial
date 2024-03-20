@@ -1,7 +1,7 @@
-"use client"
+"use client";
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 const IntroductionTitle = ({ isRight, title }) => {
   const [ref, inView] = useInView({
@@ -10,11 +10,11 @@ const IntroductionTitle = ({ isRight, title }) => {
   });
   return (
     <div>
-      <div ref={ref} className={`w-full md:hidden  z-20 relative bottom-24`}>
+      <div ref={ref} className={`w-full md:hidden  z-20 relative bottom-32`}>
         <p
           className={`home-images-title opacity-0 font-light ${
             isRight ? "rounded-l-full ms-auto" : "rounded-r-full"
-          } ${inView && "tilt-in-bottom-1"}`}
+          } ${inView && (isRight ? "tilt-in-bottom-1" : "tilt-in-bottom-2")}`}
         >
           {title}
         </p>
