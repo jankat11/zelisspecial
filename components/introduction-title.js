@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import { motion } from "framer-motion";
 
 const IntroductionTitle = ({ isRight, title }) => {
   const [ref, inView] = useInView({
