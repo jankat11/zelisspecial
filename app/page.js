@@ -5,7 +5,7 @@ import IntroductionList from "../components/home/introduction-list";
 import HomeProducts from "@/components/home/home-products";
 import HomeVitra from "@/components/home/home-vitra";
 import HomeInstagram from "@/components/home/home-instagram";
-import CompareImages from "@/components/home/compare-images";
+import HomeYoutube from "@/components/home/home-youtube";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <IntroductionList />
       <HomeVitra />
       <IntroductionList />
-      <CompareImages />
+      <HomeYoutube/>
       <HomeInstagram />
     </>
   );
