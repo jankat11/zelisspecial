@@ -15,10 +15,10 @@ const HomeVitra = () => {
           </svg>
         </div>
         <div className="w-full limited-edition z-20">
-          <p className="hero-text  inside-container text-3xl sm:text-3xl md:text-4xl xl:text-5xl">
+          <p className="hero-text pb-0  inside-container text-xl sm:text-3xl ">
             BİR MUTFAK MASALI
           </p>
-          <button className="button-secondary rounded-full text-sm tracking-wider">
+          <button className="button-secondary  rounded-full text-sm tracking-wider">
             daha fazla bilgi edin
           </button>
         </div>
