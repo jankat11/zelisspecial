@@ -28,7 +28,7 @@ const HomeVitra = () => {
           muted
           loop
         >
-          <source src="homepage/sefin.mp4" type="video/mp4" />
+          
           <source src="homepage/sefin.webm" type="video/webm" />
           Your browser is not supported
         </video>
