@@ -3,7 +3,7 @@ import Image from "next/image";
 const HomeVitra = () => {
   return (
     <section className="  px-0 ">
-      <div className="relative overflow-hidden ">
+      <div className="relative z-10">
         <div className="relative z-10 translate-y-[90%]">
           <svg viewBox="0 0 900 100" className="border-t border-white">
             <path
