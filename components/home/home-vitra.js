@@ -14,8 +14,8 @@ const HomeVitra = () => {
             ></path>
           </svg>
         </div>
-        <div className="w-full limited-edition z-20">
-          <p className="hero-text  inside-container relative z-30  text-3xl sm:text-3xl md:text-4xl xl:text-5xl">
+        <div className="w-full limited-edition z-30">
+          <p className="hero-text  inside-container text-3xl sm:text-3xl md:text-4xl xl:text-5xl">
             BİR MUTFAK MASALI
           </p>
           <button className="button-secondary rounded-full text-sm tracking-wider">
