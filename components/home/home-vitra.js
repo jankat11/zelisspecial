@@ -29,7 +29,7 @@ const HomeVitra = () => {
           loop
         >
           <source src="homepage/sefin.mp4" type="video/mp4" />
-          <source type="video/webm" />
+          <source src="homepage/sefin.webm" type="video/webm" />
           Your browser is not supported
         </video>
         <div className="relative z-10 -translate-y-[90%]">
