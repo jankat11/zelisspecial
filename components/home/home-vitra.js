@@ -4,7 +4,7 @@ const HomeVitra = () => {
   return (
     <section className="  px-0 ">
       <div className="relative overflow-hidden ">
-        <div className="relative z-20 translate-y-[90%]">
+        <div className="relative z-10 translate-y-[90%]">
           <svg viewBox="0 0 900 100" className="border-t border-white">
             <path
               d="M0 34L11.5 39.5C23 45 46 56 69 56.7C92 57.3 115 47.7 138.2 43.7C161.3 39.7 184.7 41.3 207.8 44.3C231 47.3 254 51.7 277 50C300 48.3 323 40.7 346 42.5C369 44.3 392 55.7 415.2 59.3C438.3 63 461.7 59 484.8 55.2C508 51.3 531 47.7 554 44.2C577 40.7 600 37.3 623 39.5C646 41.7 669 49.3 692.2 55C715.3 60.7 738.7 64.3 761.8 62.8C785 61.3 808 54.7 831 52.8C854 51 877 54 888.5 55.5L900 57L900 0L888.5 0C877 0 854 0 831 0C808 0 785 0 761.8 0C738.7 0 715.3 0 692.2 0C669 0 646 0 623 0C600 0 577 0 554 0C531 0 508 0 484.8 0C461.7 0 438.3 0 415.2 0C392 0 369 0 346 0C323 0 300 0 277 0C254 0 231 0 207.8 0C184.7 0 161.3 0 138.2 0C115 0 92 0 69 0C46 0 23 0 11.5 0L0 0Z"
@@ -14,7 +14,7 @@ const HomeVitra = () => {
             ></path>
           </svg>
         </div>
-        <div className="w-full limited-edition z-30">
+        <div className="w-full limited-edition z-20">
           <p className="hero-text  inside-container text-3xl sm:text-3xl md:text-4xl xl:text-5xl">
             BİR MUTFAK MASALI
           </p>
@@ -32,7 +32,7 @@ const HomeVitra = () => {
           <source type="video/webm" />
           Your browser is not supported
         </video>
-        <div className="relative z-20 -translate-y-[90%]">
+        <div className="relative z-10 -translate-y-[90%]">
           <svg viewBox="0 0 900 100" className="">
             <path
              d="M0 61L11.5 56C23 51 46 41 69 38.5C92 36 115 41 138.2 44C161.3 47 184.7 48 207.8 51C231 54 254 59 277 57.7C300 56.3 323 48.7 346 47.5C369 46.3 392 51.7 415.2 50.3C438.3 49 461.7 41 484.8 39.3C508 37.7 531 42.3 554 46.3C577 50.3 600 53.7 623 55.7C646 57.7 669 58.3 692.2 55.3C715.3 52.3 738.7 45.7 761.8 41.3C785 37 808 35 831 40C854 45 877 57 888.5 63L900 69L900 101L888.5 101C877 101 854 101 831 101C808 101 785 101 761.8 101C738.7 101 715.3 101 692.2 101C669 101 646 101 623 101C600 101 577 101 554 101C531 101 508 101 484.8 101C461.7 101 438.3 101 415.2 101C392 101 369 101 346 101C323 101 300 101 277 101C254 101 231 101 207.8 101C184.7 101 161.3 101 138.2 101C115 101 92 101 69 101C46 101 23 101 11.5 101L0 101Z"
