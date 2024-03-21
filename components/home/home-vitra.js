@@ -34,28 +34,42 @@ const HomeVitra = () => {
           Your browser is not supported
         </video>
       </div>
-      <div className="w-full py-8 md:py-0  relative bottom-[1px] flex flex-col justify-center items-center bg-secondaryLight">
-        <p className=" text-center md:pt-8 md:text-lg text-white xl:pt-16 "> ürünlerimizle ilgili bilgi alabilir ve sipariş verebilirsiniz.</p>
-        <a href="" className=" font-medium text-lg md:text-xl underline text-white relative z-20  rounded-full mt-4">
+      <div className="w-full py-8 md:py-0  relative z-10 bottom-[1px] flex flex-col justify-center items-center bg-secondaryLight">
+        <p className=" text-center md:pt-8 md:text-lg text-white xl:pt-16 ">
+          {" "}
+          ürünlerimizle ilgili bilgi alabilir ve sipariş verebilirsiniz.
+        </p>
+        <a
+          href=""
+          className=" font-medium text-lg md:text-xl underline text-white relative z-20  rounded-full mt-4"
+        >
           iletişime geçin
         </a>
-      <Image 
-        src="/homepage/bottom.png"
-        width={2500}
-        height={100}
-        alt="hero"
-        className="w-full relative bottom-[2px] z-20"
-      />
       </div>
-      
-
+      <div className="relative bottom-[1px] z-20 bg-white flex">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#0099ff"
+            fill-opacity="1"
+            d="M0,256L48,234.7C96,213,192,171,288,170.7C384,171,480,213,576,197.3C672,181,768,107,864,74.7C960,43,1056,53,1152,74.7C1248,96,1344,128,1392,144L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          ></path>
+        </svg>
+        {/* <svg className="svg-undervideo-second-part" viewBox="0 0 900 100">
+          <path
+            d="M0 4L50 15.8C100 27.7 200 51.3 300 58.7C400 66 500 57 600 61C700 65 800 82 850 90.5L900 99L900 0L850 0C800 0 700 0 600 0C500 0 400 0 300 0C200 0 100 0 50 0L0 0Z"
+            fill="#a98360"
+            strokeLinecap="round"
+            strokeLinejoin="miter"
+          ></path>
+        </svg> */}
+      </div>
     </section>
   );
 };
 export default HomeVitra;
 
-
-{/* <div className="relative bottom-[1px] z-20 flex">
+{
+  /* <div className="relative bottom-[1px] z-20 flex">
         <svg className="relative left-[1px]" viewBox="0 0 900 100">
           <path
             d="M0 4L50 15.8C100 27.7 200 51.3 300 58.7C400 66 500 57 600 61C700 65 800 82 850 90.5L900 99L900 0L850 0C800 0 700 0 600 0C500 0 400 0 300 0C200 0 100 0 50 0L0 0Z"
@@ -72,4 +86,5 @@ export default HomeVitra;
             strokeLinejoin="miter"
           ></path>
         </svg>
-      </div> */}
+      </div> */
+}
