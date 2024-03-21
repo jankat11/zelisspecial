@@ -18,7 +18,7 @@ const HomeVitra = () => {
           <p className="hero-text pb-0  inside-container text-xl sm:text-3xl ">
             BİR MUTFAK MASALI
           </p>
-          <button className="button-primary  rounded-full text-sm tracking-wider">
+          <button className="button-secondary rounded-full text-sm tracking-wider">
             daha fazla bilgi edinin
           </button>
         </div>
