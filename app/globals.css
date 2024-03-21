@@ -366,7 +366,7 @@ h3 {
     @apply absolute  hover:bg-transparent top-4 right-4 left-4 bottom-4 bg-transparent  z-10;
   }
   .home-images-title {
-    @apply md:mx-auto md:ml-0 w-fit  text-center bg-neutral cursor-pointer  md:rounded-full text-3xl md:text-lg px-8 py-3 md:px-8 md:py-2  lg:px-8 lg:py-4   text-secondary tracking-wider;
+    @apply md:mx-auto md:ml-0 w-fit  text-center bg-white border-2 border-primary  cursor-pointer  md:rounded-full text-3xl md:text-lg px-8 py-3 md:px-8 md:py-2  lg:px-8 lg:py-4   text-secondary tracking-wider;
   }
   .slideController {
     @apply absolute  w-1/2 h-[80%] bottom-0;
