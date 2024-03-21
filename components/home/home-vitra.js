@@ -23,7 +23,7 @@ const HomeVitra = () => {
           </button>
         </div>
         <video
-          className="object-cover  md:aspect-video"
+          className="object-cover aspect-square md:aspect-video"
           autoPlay
           muted
           loop
