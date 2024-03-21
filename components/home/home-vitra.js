@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const HomeVitra = () => {
   return (
@@ -18,12 +19,14 @@ const HomeVitra = () => {
           <p className="hero-text pb-0  inside-container text-xl sm:text-3xl ">
             BİR MUTFAK MASALI
           </p>
-          <button className="button-secondary rounded-full text-sm tracking-wider">
-            daha fazla bilgi edinin
-          </button>
+          <Link href="/our-story">
+            <button className="button-secondary rounded-full text-sm tracking-wider">
+              daha fazla bilgi edinin
+            </button>
+          </Link>
         </div>
         <video
-          className="object-cover aspect-square md:aspect-video"
+          className="object-cover min-h-[480px] md:aspect-video"
           autoPlay
           muted
           loop
