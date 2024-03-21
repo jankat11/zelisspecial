@@ -15,7 +15,7 @@ const HomeVitra = () => {
           </svg>
         </div>
         <div className="w-full limited-edition z-20">
-          <p className="hero-text  inside-container relative z-30 sm:left-16 xl:left-0 text-left text-3xl sm:text-3xl md:text-4xl xl:text-5xl">
+          <p className="hero-text  inside-container relative z-30  text-3xl sm:text-3xl md:text-4xl xl:text-5xl">
             BİR MUTFAK MASALI
           </p>
           <button className="button-secondary rounded-full text-sm tracking-wider">
@@ -23,7 +23,7 @@ const HomeVitra = () => {
           </button>
         </div>
         <video
-          className="object-cover  aspect-[6/5] md:aspect-video"
+          className="object-cover  aspect-square md:aspect-video"
           autoPlay
           muted
           loop
