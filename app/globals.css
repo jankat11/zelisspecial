@@ -285,7 +285,13 @@ h3 {
   z-index: 10000;
 }
 
-/* sm:max-w-[1280px] xl:w-[1280px] */
+.svg-undervideo-second-part {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
 
 @layer components {
   .layout-align {
@@ -473,62 +479,63 @@ h3 {
 }
 
 .tilt-in-bottom-1 {
-	-webkit-animation: tilt-in-bottom-1 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: tilt-in-bottom-1 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: tilt-in-bottom-1 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: tilt-in-bottom-1 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-
 
 @-webkit-keyframes tilt-in-bottom-1 {
   0% {
     -webkit-transform: rotateY(30deg) translateY(300px) skewY(-30deg);
-            transform: rotateY(30deg) translateY(300px) skewY(-30deg);
+    transform: rotateY(30deg) translateY(300px) skewY(-30deg);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
-            transform: rotateY(0deg) translateY(0) skewY(0deg);
+    transform: rotateY(0deg) translateY(0) skewY(0deg);
     opacity: 1;
   }
 }
 @keyframes tilt-in-bottom-1 {
   0% {
     -webkit-transform: rotateY(30deg) translateY(300px) skewY(-30deg);
-            transform: rotateY(30deg) translateY(300px) skewY(-30deg);
+    transform: rotateY(30deg) translateY(300px) skewY(-30deg);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
-            transform: rotateY(0deg) translateY(0) skewY(0deg);
+    transform: rotateY(0deg) translateY(0) skewY(0deg);
     opacity: 1;
   }
 }
 
 .tilt-in-bottom-2 {
-	-webkit-animation: tilt-in-bottom-2 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: tilt-in-bottom-2 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: tilt-in-bottom-2 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: tilt-in-bottom-2 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes tilt-in-bottom-2 {
   0% {
     -webkit-transform: rotateY(-30deg) translateY(300px) skewY(30deg);
-            transform: rotateY(-30deg) translateY(300px) skewY(30deg);
+    transform: rotateY(-30deg) translateY(300px) skewY(30deg);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
-            transform: rotateY(0deg) translateY(0) skewY(0deg);
+    transform: rotateY(0deg) translateY(0) skewY(0deg);
     opacity: 1;
   }
 }
 @keyframes tilt-in-bottom-2 {
   0% {
     -webkit-transform: rotateY(-30deg) translateY(300px) skewY(30deg);
-            transform: rotateY(-30deg) translateY(300px) skewY(30deg);
+    transform: rotateY(-30deg) translateY(300px) skewY(30deg);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
-            transform: rotateY(0deg) translateY(0) skewY(0deg);
+    transform: rotateY(0deg) translateY(0) skewY(0deg);
     opacity: 1;
   }
 }
