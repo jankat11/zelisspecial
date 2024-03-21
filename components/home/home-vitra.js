@@ -43,7 +43,7 @@ const HomeVitra = () => {
       <Image 
         src="/homepage/bottom.png"
         width={2500}
-        height={2500}
+        height={100}
         priority
         alt="hero"
         className="w-full relative bottom-[2px]"
