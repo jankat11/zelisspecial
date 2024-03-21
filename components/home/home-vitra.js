@@ -47,7 +47,7 @@ const HomeVitra = () => {
         height={100}
         priority
         alt="hero"
-        className="w-full relative bottom-[2px]"
+        className="w-full relative bottom-[2px] z-20"
       />
 
     </section>
