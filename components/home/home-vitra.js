@@ -35,13 +35,13 @@ const HomeVitra = () => {
         </video>
       </div>
 
-      <div className="w-full py-8 md:py-0  relative flex flex-col justify-center items-center bg-secondaryLight ">
+      <div className="w-full py-8 md:py-0  relative flex flex-col justify-center items-center bg-secondaryLight">
         <p className=" text-center md:pt-8 md:text-lg text-white xl:pt-16 "> ürünlerimizle ilgili bilgi alabilir ve sipariş verebilirsiniz.</p>
         <a href="" className=" font-medium text-lg md:text-xl underline text-white relative z-20  rounded-full mt-4">
           iletişime geçin
         </a>
       </div>
-      {/* <div className="relative bottom-[1px] z-20 flex">
+      <div className="relative bottom-[1px] z-20 flex">
         <svg className="relative left-[1px]" viewBox="0 0 900 100">
           <path
             d="M0 4L50 15.8C100 27.7 200 51.3 300 58.7C400 66 500 57 600 61C700 65 800 82 850 90.5L900 99L900 0L850 0C800 0 700 0 600 0C500 0 400 0 300 0C200 0 100 0 50 0L0 0Z"
@@ -58,7 +58,7 @@ const HomeVitra = () => {
             strokeLinejoin="miter"
           ></path>
         </svg>
-      </div> */}
+      </div>
     </section>
   );
 };
