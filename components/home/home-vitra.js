@@ -27,6 +27,7 @@ const HomeVitra = () => {
           autoPlay
           muted
           loop
+          playsInline
         >
           <source src="homepage/sefin.mp4" type="video/mp4" />
           <source src="homepage/sefin.webm" type="video/webm" />

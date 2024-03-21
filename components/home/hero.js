@@ -10,19 +10,8 @@ const Hero = () => {
   }; */
 
   return (
-    <div className="pb-4 xs:pb-44 sm:pb-0 lg:pb-32">
-      <video
-          className="object-cover  aspect-square md:aspect-video"
-          autoPlay
-          muted
-          loop
-          playsInline
-        >
-          <source src="homepage/sefin.mp4" type="video/mp4" />
-          <source src="homepage/sefin.webm" type="video/webm" />
-          Your browser is not supported
-        </video>
-      <section className="h-screen md:h-auto  m-0 p-0  relative ">
+    <section className="pb-4 xs:pb-44 sm:pb-0 lg:pb-32">
+      <div className="h-screen md:h-auto  m-0 p-0  relative ">
         <div className="lg:w-full relative z-10 h-[80%] md:h-screen overflow-hidden bg-[#A9A193]">
           <Image
             src={"/hero.jpg"}
@@ -82,8 +71,8 @@ const Hero = () => {
           </div>
           <div className="w-full lg:hidden h-[22rem] bg-white absolute z-10 -translate-y-1"></div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 export default Hero;
