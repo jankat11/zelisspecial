@@ -309,14 +309,14 @@ h3 {
   }
 
   .button-primary {
-    @apply rounded-lg bg-primary tracking-wide text-white px-8 py-4 hover:bg-white hover:text-primary border-2 border-primary duration-150;
+    @apply rounded-lg bg-primary tracking-wide text-white px-8 py-4 hover:bg-white hover:text-primary border-2 border-primary duration-300;
   }
   .button-primary-outline {
     @apply rounded-lg bg-white tracking-wide text-primary px-8 py-4 hover:bg-primary hover:text-white border-2 border-primary duration-150;
   }
 
   .button-secondary {
-    @apply rounded-lg bg-secondary border-2 border-secondary tracking-wide text-white px-8 py-4 hover:bg-white hover:text-secondary duration-150;
+    @apply rounded-lg bg-secondary border-2 border-secondary tracking-wide text-white px-8 py-4 hover:bg-white hover:text-secondary duration-300;
   }
 
   .button-secondary-outline {
@@ -366,7 +366,7 @@ h3 {
     @apply absolute  hover:bg-transparent top-4 right-4 left-4 bottom-4 bg-transparent  z-10;
   }
   .home-images-title {
-    @apply md:mx-auto md:ml-0 w-fit  text-center bg-primary  cursor-pointer  md:rounded-full text-3xl md:text-lg px-8 py-3 md:px-8 md:py-2  lg:px-8 lg:py-4   text-white tracking-wider;
+    @apply md:mx-auto md:ml-0 w-fit  text-center bg-neutral cursor-pointer  md:rounded-full text-3xl md:text-lg px-8 py-3 md:px-8 md:py-2  lg:px-8 lg:py-4   text-secondary tracking-wider;
   }
   .slideController {
     @apply absolute  w-1/2 h-[80%] bottom-0;
@@ -396,7 +396,7 @@ h3 {
     @apply select-none hidden lg:block pt-20 pb-4 sm:pb-8 sm:pt-32 leading-loose sm:leading-10 text-left sm:text-xl lg:text-3xl xl:text-4xl  tracking-wide;
   }
   .limited-edition {
-    @apply absolute sm:top-[50%] top-[75%] -translate-y-[50%] md:text-5xl xl:text-6xl text-2xl;
+    @apply absolute  flex flex-col items-center gap-12 justify-center top-[40%] -translate-y-[50%] md:text-5xl xl:text-6xl text-2xl;
   }
   .opening-logo {
     @apply w-screen h-screen overflow-y-hidden flex relative justify-center items-center;

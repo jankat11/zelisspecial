@@ -3,7 +3,7 @@ import Image from "next/image";
 const HomeVitra = () => {
   return (
     <section className="  px-0 ">
-      <div className="relative overflow-hidden cursor-pointer ">
+      <div className="relative overflow-hidden ">
         <div className="relative z-10 translate-y-[90%]">
           <svg viewBox="0 0 900 100" className="border-t border-white">
             <path
@@ -14,12 +14,15 @@ const HomeVitra = () => {
             ></path>
           </svg>
         </div>
-        <div className="w-full limited-edition">
+        <div className="w-full limited-edition z-20">
           <p className="hero-text  inside-container relative z-30 sm:left-16 xl:left-0 text-left text-3xl sm:text-3xl md:text-4xl xl:text-5xl">
-            şefin tavsiyesi
+            BİR MUTFAK MASALI
           </p>
+          <button className="button-secondary rounded-full text-sm tracking-wider">
+            zeliş&apos;in mutfağı hakkında daha fazla bilgi edin
+          </button>
         </div>
-        <video autoPlay muted loop >
+        <video className="object-cover  aspect-[6/5] md:aspect-video" autoPlay muted loop >
           <source src="homepage/sefin.mp4" type="video/mp4" />
           <source type="video/webm" />
           Your browser is not supported
