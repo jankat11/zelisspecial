@@ -33,8 +33,6 @@ const HomeVitra = () => {
           <source src="homepage/sefin.webm" type="video/webm" />
           Your browser is not supported
         </video>
-      </div>
-
       <div className="w-full py-8 md:py-0  relative bottom-[1px] flex flex-col justify-center items-center bg-secondaryLight">
         <p className=" text-center md:pt-8 md:text-lg text-white xl:pt-16 "> ürünlerimizle ilgili bilgi alabilir ve sipariş verebilirsiniz.</p>
         <a href="" className=" font-medium text-lg md:text-xl underline text-white relative z-20  rounded-full mt-4">
@@ -50,6 +48,8 @@ const HomeVitra = () => {
         alt="hero"
         className="w-full relative bottom-[2px]"
       />
+      </div>
+
     </section>
   );
 };
