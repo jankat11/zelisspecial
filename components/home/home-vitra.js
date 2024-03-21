@@ -39,6 +39,13 @@ const HomeVitra = () => {
         <a href="" className=" font-medium text-lg md:text-xl underline text-white relative z-20  rounded-full mt-4">
           iletişime geçin
         </a>
+      <Image 
+        src="/homepage/bottom.png"
+        width={2500}
+        height={100}
+        alt="hero"
+        className="w-full relative bottom-[2px] z-20"
+      />
       </div>
       
 
