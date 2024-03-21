@@ -43,6 +43,7 @@ const HomeVitra = () => {
           </svg>
         </div>
       </div>
+      
     </section>
   );
 };
