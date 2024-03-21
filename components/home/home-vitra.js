@@ -18,8 +18,8 @@ const HomeVitra = () => {
           <p className="hero-text pb-0  inside-container text-xl sm:text-3xl ">
             BİR MUTFAK MASALI
           </p>
-          <button className="button-secondary  rounded-full text-sm tracking-wider">
-            daha fazla bilgi edin
+          <button className="button-primary  rounded-full text-sm tracking-wider">
+            daha fazla bilgi edinin
           </button>
         </div>
         <video
@@ -34,26 +34,31 @@ const HomeVitra = () => {
           Your browser is not supported
         </video>
       </div>
-        <div className="w-full bg-neutral h-28"></div>
 
-        <div className="relative bottom-[1px] z-10 flex">
-          <svg className="relative left-[1px]" viewBox="0 0 900 100">
-            <path
-              d="M0 4L50 15.8C100 27.7 200 51.3 300 58.7C400 66 500 57 600 61C700 65 800 82 850 90.5L900 99L900 0L850 0C800 0 700 0 600 0C500 0 400 0 300 0C200 0 100 0 50 0L0 0Z"
-              fill="#fdeed9"
-              strokeLinecap="round"
-              strokeLinejoin="miter"
-            ></path>
-          </svg>
-          <svg className="svg-undervideo-second-part" viewBox="0 0 900 100">
-            <path
-              d="M0 4L50 15.8C100 27.7 200 51.3 300 58.7C400 66 500 57 600 61C700 65 800 82 850 90.5L900 99L900 0L850 0C800 0 700 0 600 0C500 0 400 0 300 0C200 0 100 0 50 0L0 0Z"
-              fill="#fdeed9"
-              strokeLinecap="round"
-              strokeLinejoin="miter"
-            ></path>
-          </svg>
-        </div>
+      <div className="w-full py-8 md:py-0  relative flex flex-col justify-center items-center bg-secondaryLight ">
+        <p className=" text-center md:pt-8 md:text-lg text-white xl:pt-16 "> ürünlerimizle ilgili bilgi alabilir ve sipariş verebilirsiniz.</p>
+        <a href="" className=" font-medium text-lg md:text-xl underline text-white relative z-20  rounded-full mt-4">
+          iletişime geçin
+        </a>
+      </div>
+      <div className="relative bottom-[1px] z-10 flex">
+        <svg className="relative left-[1px]" viewBox="0 0 900 100">
+          <path
+            d="M0 4L50 15.8C100 27.7 200 51.3 300 58.7C400 66 500 57 600 61C700 65 800 82 850 90.5L900 99L900 0L850 0C800 0 700 0 600 0C500 0 400 0 300 0C200 0 100 0 50 0L0 0Z"
+            fill="#a98360"
+            strokeLinecap="round"
+            strokeLinejoin="miter"
+          ></path>
+        </svg>
+        <svg className="svg-undervideo-second-part" viewBox="0 0 900 100">
+          <path
+            d="M0 4L50 15.8C100 27.7 200 51.3 300 58.7C400 66 500 57 600 61C700 65 800 82 850 90.5L900 99L900 0L850 0C800 0 700 0 600 0C500 0 400 0 300 0C200 0 100 0 50 0L0 0Z"
+            fill="#a98360"
+            strokeLinecap="round"
+            strokeLinejoin="miter"
+          ></path>
+        </svg>
+      </div>
     </section>
   );
 };
