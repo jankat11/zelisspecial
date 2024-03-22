@@ -7,7 +7,7 @@ const SocialIcons = ({ size, classes, color }) => {
   return (
     <div className="nav-link ">
       <span className={`flex gap-4 w-full cursor-default ${classes}`}>
-        <a href="https://www.instagram.com/design4theplanet" target="_blank">
+        <a href="https://www.instagram.com/zelisspecial" target="_blank">
           <FaInstagram fill={color} size={size} />{" "}
         </a>
         <a href="https://facebook.com/" target="_blank">
