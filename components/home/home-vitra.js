@@ -19,7 +19,7 @@ const HomeVitra = () => {
           <p className="hero-text pb-0  inside-container text-xl sm:text-3xl ">
             BİR MUTFAK MASALI
           </p>
-          <Link href="/our-story">
+          <Link href="">
             <button className="button-secondary rounded-full text-sm tracking-wider">
               daha fazla bilgi edinin
             </button>

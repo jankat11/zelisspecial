@@ -139,7 +139,7 @@ const Header = () => {
                 <div className="text-line"></div>
               </Link>
               <Link
-                href="/our-story"
+                href=""
                 className={`nav-link top-nav flex px-5 items-center whitespace-nowrap `}
               >
                 <span

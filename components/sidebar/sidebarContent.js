@@ -28,7 +28,7 @@ const SidebarContent = ({ handleMenuClick }) => {
       </ul>
       <ul className="mt-6 py-6 pt-8 border-t border-white/40">
         <li onClick={handleMenuClick}>
-          <Link href="/our-story" className="nav-link  whitespace-nowrap ">
+          <Link href="" className="nav-link  whitespace-nowrap ">
             <span>HAKKINDA</span>
           </Link>
         </li>

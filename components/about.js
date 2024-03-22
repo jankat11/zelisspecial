@@ -12,9 +12,10 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col items-center shadow relative pb-44 md:pb-24"
+      className="flex flex-col items-center shadow relative pb-44 md:pb-24 min-h-screen"
     >
-      <div className="py-8  my-16 flex justify-center items-center gap-4">
+      <div className="h-24 w-full text-5xl text-center absolute top-56">yakında...</div>
+{/*       <div className="py-8  my-16 flex justify-center items-center gap-4">
         <h2 className=" relative top-8 md:py-10 z-1 text-4xl inline-block">
           <span className={`text-6xl ${paris.className}`}>O</span>ur story
         </h2>
@@ -126,7 +127,7 @@ const About = () => {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
