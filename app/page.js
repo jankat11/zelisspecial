@@ -1,4 +1,3 @@
-
 import Hero from "../components/home/hero";
 import IntroductionList from "../components/home/introduction-list";
 /* import Map from "@/components/map/Map"; */
@@ -13,9 +12,10 @@ export default function Home() {
       <Hero />
       <IntroductionList />
       <HomeVitra />
-      <IntroductionList />
-      <HomeYoutube/>
-      <HomeInstagram />
+      <div className="lg:pb-32 lg:pt-24 md:pb-8">
+        <IntroductionList />
+      </div>
+      <HomeYoutube />
     </>
   );
 }

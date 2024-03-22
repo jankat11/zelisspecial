@@ -11,7 +11,7 @@ const InstagramTitle = ({classes, handleClose}) => {
             <FaInstagram fill="black" size={30} />
           </div>
             <p className="text-black tracking-wider font-medium cursor-pointer">
-              design4theplanet
+            zelisspecial
             </p>
           </a>
         </div>

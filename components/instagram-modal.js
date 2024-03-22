@@ -40,7 +40,7 @@ const InstagramModal = ({ imageItem }) => {
     <>
       <div onClick={() => setIsModalOpen(true)} className="relative group">
         <div className="home-instagram-logo">
-          <FaInstagram fill="white" size={24} />
+          <FaInstagram fill="white" size={42} />
         </div>
         <Image
           src={imageItem.image}
