@@ -13,7 +13,7 @@ export default function Home() {
       <IntroductionList />
       <HomeVitra />
       <div className="lg:pb-32 lg:pt-24 md:pb-8">
-        <IntroductionList />
+        <IntroductionList sublist={true} />
       </div>
       <HomeYoutube />
     </>

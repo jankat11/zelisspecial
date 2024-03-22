@@ -2,32 +2,46 @@
 
 import IntroductionItem from "../introduction-item";
 
-const IntroductionList = () => {
+const IntroductionList = ({ sublist }) => {
   return (
     <section
       id="home-store"
       className="relative z-20  inside-container px-0 md:px-4"
     >
-      <div className="grid relative md:grid-cols-3 ">
-        <IntroductionItem
-          title={"yaş tatlı & pasta"}
-          introImage={"/homepage/intro1.png"}
-        />
-        <IntroductionItem
-          title={"baklava çeşitleri"}
-          introImage={"/homepage/intro2.png"}
-          isRight={true}
-        />
-        <IntroductionItem
-          title={"kurabiye & kek"}
-          introImage={"/homepage/intro3.png"}
-        />
-      </div>
-      {/*       <p className="introTitle inside-container ">
-        <span className=" ">W</span>e value our planet and are dedicated to
-        contributing to its well-being by upcycling waste materials and turning
-        them into one of a kind gadgets, utensils and art objects.
-      </p> */}
+      {!sublist ? (
+        <div className="grid relative md:grid-cols-3 ">
+          <IntroductionItem
+            title={"yaş tatlı & pasta"}
+            introImage={"/homepage/intro1.png"}
+          />
+          <IntroductionItem
+            title={"baklava çeşitleri"}
+            introImage={"/homepage/intro2.png"}
+            isRight={true}
+          />
+          <IntroductionItem
+            title={"kurabiye & kek"}
+            introImage={"/homepage/intro3.png"}
+          />
+        </div>
+      ) : (
+        <div className="grid relative md:grid-cols-3 ">
+          <IntroductionItem
+            title={"börek & çörek"}
+            introImage={"/homepage/intro5.png"}
+            isRight={true}
+          />
+          <IntroductionItem
+            title={"ara sıcak"}
+            introImage={"/homepage/intro6.png"}
+          />
+          <IntroductionItem
+            title={"sulu yemek"}
+            introImage={"/homepage/intro4.png"}
+            isRight={true}
+          />
+        </div>
+      )}
     </section>
   );
 };
