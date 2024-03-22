@@ -410,10 +410,10 @@ h3 {
     @apply overflow-hidden;
   }
   .home-instagram-logo {
-    @apply absolute top-[50%] transition-all duration-300 right-[50%] cursor-pointer group-hover:opacity-0 z-20 opacity-100 translate-x-[50%] translate-y-[-50%];
+    @apply absolute top-[50%] transition-all duration-300 right-[50%] cursor-pointer group-hover:opacity-100 z-20 opacity-100 translate-x-[50%] translate-y-[-50%];
   }
   .home-instagram-img {
-    @apply group-hover:brightness-100 brightness-50 rounded-lg h-full group-hover:cursor-pointer relative z-10 transition-all duration-300 home-prod-img;
+    @apply group-hover:brightness-50 brightness-100 rounded-lg h-full group-hover:cursor-pointer relative z-10 transition-all duration-300 home-prod-img;
   }
   /*   .homeproducts-img-cover{
     @apply rounded-md shadow w-full h-80 sm:h-96 2xl:h-[450px] overflow-hidden;
